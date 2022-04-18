@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Titillium+Web:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+/* * { */
+/*   outline: 1px solid #20c20e; */
+/*    } */
+
+body {
+  background-color: #000000;
+  font-family: 'PT Serif', serif;
+  color: #fff;
+}
+
+.myNav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.myNav > li {
+  background-color: #ea3e0d;
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+  border-radius: 5px;
+
+  transition: background-color .5s;
+}
+
+.myNav > li:hover {
+  background-color: #fe5326;
+}
+
+.myNav > li a {
+  color: #f3eff5;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+
+  transition: color .5s;
+}
+
+.myNav > li a:hover {
+  /* color: #f8f272; */
+  color: #f5d441;
+}
+
+.container {
+  margin: 30px auto 0 auto;
+  max-width: 1100px;
+  padding: 10px;
+}
+
+.npod {
+  font-family: 'Titillium Web', sans-serif;
+  padding: 10px;
+  background-color: #b4adea;
+
+  display: flex;
+}
+
+.npod > div {
+  flex: 1;
+  color: #0e0e52;
+  font-size: 15px;
+  padding: 5px;
+}
+
+img {
+  flex: 3;
+  width: 30%;
+}
+
+
+    /* font-family: 'Rubik Moonrocks', cursive; */
+    /**/
+    /* font-family: 'Titillium Web', sans-serif; */
+
+/* body { */
+/*   font-family: 'Rubik Moonrocks', cursive; */
+/*   background-color: #3c2daf; */
+/*   color: #fff; */
+/* } */
+/**/
+
